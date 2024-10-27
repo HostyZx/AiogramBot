@@ -2,10 +2,10 @@ import asyncio
 import logging
 from aiogram import Bot, Dispatcher
 from app.handlers import router
-from config import TOKEN
+from config import TELEGRAM_TOKEN
 
 
-bot = Bot(token=TOKEN)
+bot = Bot(token=TELEGRAM_TOKEN)
 dp = Dispatcher()
 
 async def main():

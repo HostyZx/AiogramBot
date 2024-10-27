@@ -10,7 +10,7 @@ async def cmd_start(message: Message):
 
 @router.message(Command('help'))
 async def cmd_help(message: Message):
-    await message.reply("Привет, это помощь!")
+    await message.reply("Привет, это помощь")
 
 @router.message(F.text == "тест")
 async def cmd_test(message: Message):
