@@ -1,1 +1,1 @@
-TELEGRAM_TOKEN = "Тут токен бота"
+TELEGRAM_TOKEN = ""
