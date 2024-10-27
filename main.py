@@ -1,6 +1,7 @@
 import asyncio
 import logging
 from aiogram import Bot, Dispatcher
+
 from app.handlers import router
 from config import TELEGRAM_TOKEN
 from database.models import async_main
